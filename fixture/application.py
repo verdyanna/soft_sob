@@ -30,9 +30,6 @@ class Application:
 
     def open_home_page(self):
         wd = self.wd
-# после Задание №16: (опции командной строки, позволяющие указывать тип браузера и адрес)
-# эта проверка становится лишней
-# if not (wd.current_url.endswith("/addressbook/") and len(wd.find_elements_by_id("maintable")) > 0):
         wd.get(self.base_url)
 
     def destroy(self):
