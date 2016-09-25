@@ -34,6 +34,10 @@ def ensure_logout(self):
 def logout():
     app.find_element_by_id(".//*[@id='logoutlink").click()
 
+def registr():
+    app.get('http://www.addressbook.net/cgi-bin/WebObjects/AddressBook.woa/wa/UserAction/registerUser')
+
+
 
 
 
