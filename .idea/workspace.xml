@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23d759b9-7f98-45fc-8717-adbf36d6e42c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_result.xlsx" afterPath="$PROJECT_DIR$/data_result.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_all.py" afterPath="$PROJECT_DIR$/test/test_all.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_from excel.py" afterPath="$PROJECT_DIR$/test/test_from excel.py" />
     </list>
     <ignored path="soft_sob.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,7 +19,7 @@
     <SUITE FILE_PATH="coverage/soft_sob$py_test_in_test_all_py.coverage" NAME="py.test in test_all.py Coverage Results" MODIFIED="1474805537831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/soft_sob$test_max_negativ.coverage" NAME="test_max_negativ Coverage Results" MODIFIED="1474784225906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/soft_sob$test_num1.coverage" NAME="test_num1 Coverage Results" MODIFIED="1474789034970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/soft_sob$py_test_in_test_from_excel_py.coverage" NAME="py.test in test_from excel.py Coverage Results" MODIFIED="1474811528137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/soft_sob$py_test_in_test_from_excel_py.coverage" NAME="py.test in test_from excel.py Coverage Results" MODIFIED="1474812225402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/soft_sob$test_max_list.coverage" NAME="test_max_list Coverage Results" MODIFIED="1474784231809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/soft_sob$py_test_in_test_sitechko_login_py.coverage" NAME="py.test in test_sitechko_login.py Coverage Results" MODIFIED="1474803979551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/soft_sob$test_sort.coverage" NAME="test_sort Coverage Results" MODIFIED="1474787646731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -82,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -102,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_all.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="53" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -144,9 +142,9 @@
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/test/test_sitechck_reg.py" />
         <option value="$PROJECT_DIR$/test/test_sitechko_login.py" />
-        <option value="$PROJECT_DIR$/test/test_all.py" />
         <option value="$PROJECT_DIR$/test/test_from excel.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/test/test_all.py" />
       </list>
     </option>
   </component>
@@ -619,6 +617,9 @@
     <history-entry file="py_test_in_test_from_excel_py - 2016.09.25 at 16h 52m 24s.xml">
       <configuration name="py.test in test_from excel.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_from_excel_py - 2016.09.25 at 17h 04m 03s.xml">
+      <configuration name="py.test in test_from excel.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="py_test_in_test_login_py - 2016.09.25 at 16h 46m 47s.xml">
       <configuration name="py.test in test_login.py" configurationId="tests" />
     </history-entry>
@@ -627,9 +628,6 @@
     </history-entry>
     <history-entry file="py_test_in_test_login_py - 2016.09.25 at 16h 50m 50s.xml">
       <configuration name="py.test in test_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_sitechko_login_py - 2016.09.25 at 14h 31m 25s.xml">
-      <configuration name="py.test in test_sitechko_login.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_sitechko_login_py - 2016.09.25 at 14h 33m 29s.xml">
       <configuration name="py.test in test_sitechko_login.py" configurationId="tests" />
@@ -911,28 +909,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_sitechko_login.py" />
-    <entry file="file://$PROJECT_DIR$/test/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -960,6 +940,24 @@
         <state relative-caret-position="323">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
