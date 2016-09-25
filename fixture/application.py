@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Irsen'
 
 from selenium import webdriver
 from fixture.session import SessionHelper

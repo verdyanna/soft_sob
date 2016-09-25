@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-__author__ = 'Irsen'
+from openpyxl import load_workbook
+
 
 class SessionHelper():
 
@@ -31,7 +32,6 @@ class SessionHelper():
 
     def get_logged_user(self):
         wd = self.app.wd
-        # получаем имя текущего пользователя из окна браузера
         # и избавляемся от обрамляющих его круглых скобок - (username)
         return wd.find_element_by_xpath("//div[@id='top']/form[@class='header']/b").text[1:-1]
 
@@ -48,3 +48,13 @@ class SessionHelper():
             else:
                 self.logout()
         self.login(username, password)
+
+    def login_from_excel(self):
+        wd = self.app.wd
+
+        wb= load_workbook(filename="C:\\Reposit\\soft_sob\\user_pass.xlsx")
+        ws = wb['Sheet1']
+        for row in ws.rows:
+            wd.find_element_by_name("user").send_keys(row[1].value)
+            wd.find_element_by_name("pass").send_keys(row[2].value)
+            wd.find_element_by_css_selector('input[type="submit"]').click()

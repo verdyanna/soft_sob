@@ -1,12 +1,8 @@
-{
-  "web": {
-    "baseUrl": "http://localhost/addressbook"
+{ "web":{
+    "baseUrl": "http://localhost/addressbook/"},
 
-  },
-
-    "webadmin": {
+  "webadmin":{
     "username": "admin",
     "password": "secret"
   }
-
-}
+  }
