@@ -7,17 +7,6 @@ class SessionHelper():
     def __init__(self, app):
         self.app = app
 
-    def login(self, username, password):
-        wd = self.app.wd
-        self.app.open_home_page()
-        wd.find_element_by_name("user").click()
-        wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys(username)
-        wd.find_element_by_name("pass").click()
-        wd.find_element_by_name("pass").clear()
-        wd.find_element_by_name("pass").send_keys(password)
-        wd.find_element_by_css_selector('input[type="submit"]').click()
-
     def logout(self):
         wd = self.app.wd
         wd.find_element_by_link_text("Вийти").click()
@@ -51,10 +40,18 @@ class SessionHelper():
 
     def login_from_excel(self):
         wd = self.app.wd
-
-        wb= load_workbook(filename="C:\\Reposit\\soft_sob\\user_pass.xlsx")
+        self.app.open_home_page()
+        wb = load_workbook(filename="C:\\Reposit\\soft_sob\\book1.xlsx")
         ws = wb['Sheet1']
+        row_number = 1
         for row in ws.rows:
-            wd.find_element_by_name("user").send_keys(row[1].value)
-            wd.find_element_by_name("pass").send_keys(row[2].value)
-            wd.find_element_by_css_selector('input[type="submit"]').click()
+            wd.get('https://www.addressbook.net/cgi-bin/WebObjects/AddressBook.woa/wa/UserAction/login')
+            wd.find_element_by_id('login').send_keys(row[0].value)
+            wd.find_element_by_id('password').send_keys(row[1].value)
+            wd.find_element_by_id('loginSubmit').click()
+
+            ws['C' + str(row_number)] = "OK"
+            wb.save(filename="C:\\Reposit\\soft_sob\\data_result.xlsx")
+            row_number += 1
+        else:
+            pass
