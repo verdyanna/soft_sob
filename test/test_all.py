@@ -19,7 +19,7 @@ def test_mail_in(app):
     for row in ws.rows:
 
         app.get('https://www.addressbook.net/cgi-bin/WebObjects/AddressBook.woa/wa/UserAction/login')
-        app.find_element_by_id('login').send_keys(row[0].value)
+        app.find_element_by_id('login').send_keys(row[1].value)
         app.find_element_by_id('password').send_keys(row[1].value)
         app.find_element_by_id('loginSubmit').click()
         wb.save(filename="C:\\Reposit\\soft_sob\\data_result.xlsx")
@@ -31,11 +31,33 @@ def ensure_logout(self):
     else:
         self.registr()
 
-def logout():
+def logout(self):
     app.find_element_by_id(".//*[@id='logoutlink").click()
 
 def registr():
     app.get('http://www.addressbook.net/cgi-bin/WebObjects/AddressBook.woa/wa/UserAction/registerUser')
+
+def ensure_login(self,username,password):
+    if self.is_log_in:
+        if self.is_log_in_as(username):
+            return
+        else:
+            self.logout()
+    self.login(username, password)
+
+
+
+def is_log_in(self):
+    pass
+
+def login(self):
+    pass
+
+
+def is_log_in_as(self, username):
+    wd = self.app.wd
+    return wd.find_element_by_xpath(".//*[@id='logoutlink']").text
+
 
 
 
